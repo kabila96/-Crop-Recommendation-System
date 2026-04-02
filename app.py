@@ -214,7 +214,7 @@ with gallery_tab:
         current = available_images[st.session_state.carousel_index]
         with center_col:
             st.image(str(current), use_container_width=True, caption=f"Slide {st.session_state.carousel_index + 1} of {len(available_images)}")
-    st.info("Overview of Crop Recomendation App.")
+    st.info("            © 2025 Powell Andile Ndlovu | GIS & Data Analytics Portfolio. All rights reserved.")
 
 with predict_tab:
     st.markdown('<div class="section-title">Enter farm conditions</div>', unsafe_allow_html=True)
