@@ -1,0 +1,7 @@
+{
+  "rows": 2200,
+  "columns": 8,
+  "n_crop_classes": 22,
+  "missing_values_total": 0,
+  "class_balance_equal": true
+}
