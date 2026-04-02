@@ -195,7 +195,7 @@ with hero_right:
 
 st.markdown("")
 gallery_tab, predict_tab, perf_tab, explain_tab, eda_tab = st.tabs(
-    ["Image Carousel", "Crop Prediction", "Algorithm Performance", "SHAP & LIME", "Data Analysis"]
+    ["Overview", "Crop Prediction", "Algorithm Performance", "SHAP & LIME", "Data Analysis"]
 )
 
 with gallery_tab:
@@ -214,7 +214,7 @@ with gallery_tab:
         current = available_images[st.session_state.carousel_index]
         with center_col:
             st.image(str(current), use_container_width=True, caption=f"Slide {st.session_state.carousel_index + 1} of {len(available_images)}")
-    st.info("This is now a real slideshow with stateful Previous and Next controls, not just stacked images.")
+    st.info("Overview of Crop Recomendation App.")
 
 with predict_tab:
     st.markdown('<div class="section-title">Enter farm conditions</div>', unsafe_allow_html=True)
